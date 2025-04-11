@@ -99,7 +99,8 @@ A continuación, se presenta una guía paso a paso para configurar el entorno de
   - http://localhost:8072/api/marca/update/699852c9-dbfb-40d4-8601-7978c9bcf599
 - GETALL: Recibe todos los Stage registrado.
   - http://localhost:8072/api/marca
-*Rutas Categoria*
+
+*Rutas region*
 - GET: Devuelve la Regiones segun el ID.
   - http://localhost:8071/api/region/getbyid/524e7bc6-8894-40b7-b1b5-3854fde0a4b9
 - POST: Recibe los datos de una Region y los almacena en la BBDD.
@@ -110,7 +111,18 @@ A continuación, se presenta una guía paso a paso para configurar el entorno de
   - http://localhost:8071/api/region/update/5d45279b-dac0-4330-af8b-f5716a52cfcd
 - GETALL: Recibe todas las Region registradas.
   - http://localhost:8071/api/region
-
+  
+  *Rutas rareza*
+- GET: Devuelve la Rareza segun el ID.
+  - http://localhost:8095/api/rareza/getById/28b98b2d-a895-48f9-bfe5-12cf4812c8a5
+- POST: Recibe los datos de una Rareza y los almacena en la BBDD.
+  - http://localhost:8095/api/rareza/insert
+- DELETE: Recibe el id de una Rareza registrada y la elimina.
+  - http://localhost:8095/api/rareza/delete/5cdc19b7-459f-4952-89bc-f0226f2c1f1e
+- PUT: Recibe los datos de una Rareza registrada y los actualiza.
+  - http://localhost:8095/api/rareza/update/34aa4af5-56ee-4837-b4ed-2c388296e609
+- GETALL: Recibe todas las Rarezas registradas.
+  - http://localhost:8095/api/rareza
 
 
 ## Construido Con 🛠
