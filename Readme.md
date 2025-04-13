@@ -124,6 +124,18 @@ A continuación, se presenta una guía paso a paso para configurar el entorno de
 - GETALL: Recibe todas las Rarezas registradas.
   - http://localhost:8095/api/rareza
 
+    *Rutas rareza*
+- GET: Devuelve El Medio de pago segun el ID.
+  - http://localhost:8012/api/medio-de-pago/getbyid/d5b24747-8f2f-49a1-afbd-e071aff794c7
+- POST: Recibe los datos de un Medio de pago y los almacena en la BBDD.
+  - http://localhost:8012/api/medio-de-pago/insert
+- DELETE: Recibe el id de un Medio de pago registrada y la elimina.
+  - http://localhost:8012/api/medio-de-pago/delete/e6e71c01-30c6-4668-a7a3-fb4fad23b43d
+- PUT: Recibe los datos de un Medio de pago registrada y los actualiza.
+  - http://localhost:8012/api/medio-de-pago/update/4631a666-cc2a-4526-8afd-b7d285bb7503
+- GETALL: Recibe todas los Medio de pagos registradas.
+  - http://localhost:8012/api/medio-de-pago
+
 
 ## Construido Con 🛠
 - [Java](https://www.java.com/es/) - El lenguaje utilizado
